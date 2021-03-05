@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/services.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/gallery.css">
+  <link rel="stylesheet" href="./css/blog.css">
+  <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div>
+      <nav class="header__menu">
+        <div>
+          <h1 class="header__logo">Cahee</h1>
+          <div class="hamburger">
+            <button class="btn hamburger__btn" aria-expanded="false" aria-controls="menu-list">
+              <span class="hamburger__outer">
+                <span class="hamburger__inner">
+                </span>
+              </span>
+              <span class="btn__content btn__content--sr-only">
+                Open menu
+              </span>
+            </button>
+          </div>
+          <ul class="header__list" id="menu-list">
+            <li class="header__list-item">
+              <a href="#header" class="header__link link">
+                <span class="link__content header__link-content">Home</span>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#about" class="header__link link">
+                <span class="link__content header__link-content">About</span>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#services" class="header__link link">
+                <span class="link__content header__link-content">Services</span>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#gallery" class="header__link link">
+                <span class="link__content header__link-content">Gallery</span>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#blog" class="header__link link">
+                <span class="link__content header__link-content">Blog</span>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#contact" class="header__link link">
+                <span class="link__content">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section class="section header__section">
+      <div class="section__content header__content">
+        <h2 class="section__heading section__heading--black">Fresh life</h2>
+        <p class="section__paragraph">
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+        </p>
+        <a href="#" class="link link--orange section__link">
+          <span class="link__content">Get free now</span>
+        </a>
+      </div>
+    </section>
+    <span class="mouse" aria-hidden="true">
+      <img src="./img/mouse.svg" alt="">
+    </span>
+  </header>
+  <main>
+    <section class="section section--green about-us" id="about">
+      <div class="section__column about-us__column">
+        <div class="section__content about-us__content">
+          <h2 class="section__heading">About us</h2>
+          <p class="section__paragraph section__paragraph--white">
+            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Nim id est laborum.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+            totam rem aperiam, eaque ipsa quae ab illo inventore.
+          </p>
+        </div>
+        <img src="./img/plate.png" alt="" class="section__image">
+      </div>
+    </section>
+    <section class="section section--blue services" id="services">
+      <div class="section__column services__column">
+        <h2 class="section__heading services__heading">Our services</h2>
+        <div class="section__content services__content">
+          <div class="services__item">
+            <span class="services__service">Online shopping</span>
+            <span class="services__icon">
+              <img src="./img/icon.png" alt="" class="services__image">
+            </span>
+          </div>
+          <div class="services__item">
+            <span class="services__service">Quality product</span>
+            <span class="services__icon">
+              <img src="./img/icon-2.png" alt="" class="services__image">
+            </span>
+          </div>
+          <div class="services__item">
+            <span class="services__service">Online shopping</span>
+            <span class="services__icon">
+              <img src="./img/icon-3.png" alt="" class="services__image">
+            </span>
+          </div>
+          <div class="services__item">
+            <span class="services__service">Online shopping</span>
+            <span class="services__icon">
+              <img src="./img/icon-4.png" alt="" class="services__image">
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--yellow gallery" id="gallery">
+      <div class="section__column">
+        <div class="section__content gallery__content">
+          <h2 class="section__heading section__heading--black">Gallery</h2>
+          <p class="section__paragraph">
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="gallery__images">
+          <div class="gallery__item">
+            <img src="./img/1.png" alt="tutaj powinien być opis zdjęcia" class="gallery__image">
+          </div>
+          <div class="gallery__item">
+            <img src="./img/2.jpg" alt="tutaj powinien być opis zdjęcia" class="gallery__image">
+          </div>
+          <div class="gallery__item">
+            <img src="./img/3.jpg" alt="tutaj powinien być opis zdjęcia" class="gallery__image">
+          </div>
+          <div class="gallery__item">
+            <img src="./img/4.jpg" alt="tutaj powinien być opis zdjęcia" class="gallery__image">
+          </div>
+          <div class="gallery__item">
+            <img src="./img/5.jpg" alt="tutaj powinien być opis zdjęcia" class="gallery__image">
+          </div>
+        </div>
+        <a class="link link--blue section__link gallery__link" href="#">
+          View More
+        </a>
+      </div>
+    </section>
+    <section class="section subscribe">
+      <div class="section__column subscribe__column">
+        <div class="section__content subscribe__content">
+          <h3 class="section__heading section__heading--black section__heading--small">Subscribe to us</h3>
+          <p class="section__paragraph">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <form class="form">
+          <div class="col">
+            <div class="form__field">
+              <input type="email" id="email" name="email" class="form__input">
+              <label for="email" class="form__label">Your email address</label>
+            </div>
+            <button class="btn btn--green btn--uppercase subscribe__btn">subscribe</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="section section--purple blog" id="blog">
+      <div class="section__column">
+        <div class="section__content blog__content">
+          <h2 class="section__heading">Blog</h2>
+          <p class="section_paragraph section__paragraph--white">Dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit.</p>
+        </div>
+        <div class="section__column blog__post-thumbnails">
+          <div class="post-thumbnail">
+            <div class="post-thumbnail__image-container">
+              <img src="./img/thumbnail-1.jpg" alt="" class="post-thumbnail__image">
+            </div>
+            <div class="post-thumbnail__content">
+              <a href="" class="link post-thumbnail__link">
+                Green smoothies too much of good thing?
+              </a>
+              <time class="post-thumbnail__date" datetime="2021-12-20" pubdate>
+                <span class="post-thumbnail__day">20</span>
+                <span class="post-thumbnail__month">Nov</span>
+              </time>
+              <div class="post-thumbnail__meta">
+                <address class="post-thumbnail__author">By <a rel="author">author</a></address>
+                -
+                <span class="post-thumbnail__time">2 hours ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="post-thumbnail">
+            <div class="post-thumbnail__image-container">
+              <img src="./img/thumbnail-2.jpg" alt="" class="post-thumbnail__image">
+            </div>
+            <div class="post-thumbnail__content">
+              <a href="" class="link post-thumbnail__link">
+                Green smoothies too much of good thing?
+              </a>
+              <time class="post-thumbnail__date" datetime="2021-12-20" pubdate>
+                <span class="post-thumbnail__day">20</span>
+                <span class="post-thumbnail__month">Nov</span>
+              </time>
+              <div class="post-thumbnail__meta">
+                <address class="post-thumbnail__author">By <a rel="author">author</a></address>
+                -
+                <span class="post-thumbnail__time">2 hours ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="post-thumbnail">
+            <div class="post-thumbnail__image-container">
+              <img src="./img/thumbnail-3.jpg" alt="" class="post-thumbnail__image">
+            </div>
+            <div class="post-thumbnail__content">
+              <a href="" class="link post-thumbnail__link">
+                Green smoothies too much of good thing?
+              </a>
+              <time class="post-thumbnail__date" datetime="2021-12-20" pubdate>
+                <span class="post-thumbnail__day">20</span>
+                <span class="post-thumbnail__month">Nov</span>
+              </time>
+              <div class="post-thumbnail__meta">
+                <address class="post-thumbnail__author">By <a rel="author">author</a></address>
+                -
+                <span class="post-thumbnail__time">2 hours ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="link link--red section__link">View more</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="section contact" id="contact">
+      <div class="section__content contact__content">
+        <h2 class="section__heading section__heading--black">Contact</h2>
+        <p class="section__paragraph">For new projects, ideas, business or anything
+          you'd like to discuss, contact with me!</p>
+      </div>
+      <div class="section__column contact__column">
+        <div class="contact__informations">
+          <div class="contact__method">
+            Address
+            <p class="section__paragraph">123 City name, Street, City, Country</p>
+          </div>
+          <div class="contact__method">
+            Email
+            <p class="section__paragraph">cahee@domain.com</p>
+          </div>
+          <div class="contact__method">
+            Phone
+            <p class="section__paragraph">+012 345 6789</p>
+          </div>
+        </div>
+        <form action="" class="form contact__form">
+          <div class="form__field contact__field">
+            <input type="text" class="form__input contact__input" name="name" id="name">
+            <label for="name" class="form__label form__label--white contact__label">Your name</label>
+          </div>
+          <div class="form__field contact__field">
+            <input type="email" class="form__input contact__input" name="contact_email" id="contact_email">
+            <label for="contact_email" class="form__label form__label--white contact__label">Your address email</label>
+          </div>
+          <div class="form__field contact__field">
+            <input type="text" class="form__input contact__input" name="phone_number" id="phone_number">
+            <label for="phone_number" class="form__label form__label--white contact__label">Phone number</label>
+          </div>
+          <div class="form__field contact__field">
+            <textarea 
+              type="text" 
+              class="form__input form__textarea contact__input"
+              name="message"
+              id="message"
+            ></textarea>
+            <label for="message" class="form__label form__label--top form__label--white">Message</label>
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="footer section">
+      <div class="section__column footer__column">
+        <div class="footer__copyright">
+          &copy; Company. All right reserved.
+        </div>
+        <div class="footer__logo">
+          Cahee
+        </div>
+        <div class="footer__credits">
+          Made with love by Auskteez
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./helpers.js" type="module"></script>
+  <script src="./scroll.js" type="module"></script>
+  <script src="./menu.js" type="module"></script>
+  <script src="./main.js" type="module"></script>
+</body>
+
+</html>

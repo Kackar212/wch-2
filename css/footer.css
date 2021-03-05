@@ -1,0 +1,33 @@
+.footer {
+  background-color: #262626;
+  color: #fff;
+  padding: 6px 0;
+}
+
+.footer__copyright, .footer__logo, .footer__credits {
+  color: #b9b9b9;
+  padding: 5px 0;
+}
+
+.footer__logo {
+  font-family: 'Pacifico';
+  font-size: 1.5625em;
+  padding-top: 6px;
+  padding-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 90px;
+  }
+
+  .footer__column {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer__copyright, .footer__logo, .footer__credits {
+    padding: 0;
+  }
+}

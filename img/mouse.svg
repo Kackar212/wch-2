@@ -1,0 +1,16 @@
+<svg id="Grupa_1" data-name="Grupa 1" xmlns="http://www.w3.org/2000/svg" width="80" height="140" viewBox="0 0 20 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Prostokąt_zaokrąglony_1" data-name="Prostokąt zaokrąglony 1" class="cls-1" d="M10,34.015a9,9,0,0,0,9-9v-15a9,9,0,1,0-18,0v15A9,9,0,0,0,10,34.015Z"/>
+  <rect id="Prostokąt_zaokrąglony_2" data-name="Prostokąt zaokrąglony 2" x="8" y="5" width="4" height="10" rx="2" ry="2"/>
+</svg>
